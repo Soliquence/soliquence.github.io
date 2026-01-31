@@ -1,7 +1,12 @@
 "use client"
 
+import { Navbar } from "./dashboard/header"
+
 export function WelcomePage() {
     return (
-        <h1>Hi</h1>
+        <>
+            <Navbar />
+            <h1>Hi</h1>
+        </>
     )
 }
