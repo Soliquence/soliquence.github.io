@@ -2,11 +2,11 @@
 
 import { Navbar } from "./dashboard/header"
 
-export function WelcomePage() {
+export function ProjectsPage() {
     return (
         <>
             <Navbar />
-            <h1>Hi</h1>
+            <h1>Projects</h1>
         </>
     )
 }
